@@ -16,32 +16,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class GenericExcel 
 {
-	public static String filepath = "../../TestCaseReport.xlsx";
-	public static String sheetName = "TestData";
-	ArrayList<String> dataSheetList= new ArrayList<String>();
-	
-	public ArrayList<String> readDataFromExcel (String testCaseName) throws Exception
-	{
-		FileInputStream inputStream=new FileInputStream(new File(filepath));
-		Workbook Excel=WorkbookFactory.create(inputStream);
-		Sheet sheet = Excel.getSheet(sheetName);
-		int rowCount=sheet.getLastRowNum();
-		for(int i=1;i<=rowCount;i++)
-		{
-			Row row=sheet.getRow(i);
-			String testId=row.getCell(0).toString();
-			int cellCount = row.getLastCellNum();
-			
-			if (testId.equals(testCaseName))
-			{
-				for(int j=0;j<cellCount;j++)
-				{
-					dataSheetList.add(row.getCell(j).toString());
-				}	
-			}
-		}
-			return dataSheetList;
-	}
+	public static String filepath = "C:\\Manjunath_Rajeev\\Project_WorkSpace\\CbtCrowdEmail\\TestData\\InputData.xlsx";
+	public static String sheetName = "Sheet1";
 	
 	public void writeResultToExcel(String result,String testCaseName,String exception) throws EncryptedDocumentException, InvalidFormatException, IOException
 	{

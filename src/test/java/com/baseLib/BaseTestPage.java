@@ -43,8 +43,8 @@ public class BaseTestPage
 	@AfterMethod
 	public void closeBrowser()
 	{
-		driver.findElement(By.xpath("//span[@class='gb_1a gbii']")).click();
-		driver.findElement(By.xpath("//a[text()='Sign out']")).click();
+//		driver.findElement(By.xpath("//span[@class='gb_1a gbii']")).click();
+//		driver.findElement(By.xpath("//a[text()='Sign out']")).click();
 		driver.quit();	
 	}	
 }

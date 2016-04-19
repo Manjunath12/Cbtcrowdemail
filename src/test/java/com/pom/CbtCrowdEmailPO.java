@@ -245,11 +245,11 @@ public class CbtCrowdEmailPO
 		return elechngePwdTxt;
 	}
 	
-	public void userLogin(String userName, String passWord) throws InterruptedException
+	public void userLogin(String username, String password) throws InterruptedException
 	{
-		getEleEmailTxtFld().sendKeys(userName);
+		getEleEmailTxtFld().sendKeys(username);
 		getEleNextBtn().click();
-		getElePwdTxtFld().sendKeys(passWord);
+		getElePwdTxtFld().sendKeys(password);
 		getEleSignInBtn().click();
 		Thread.sleep(3000);
 	}

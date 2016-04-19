@@ -151,3 +151,5 @@ org.apache.xmlgraphics.image.loader.ImageException: The file format is not suppo
 2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #3.
 2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #4.
 2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #5.
+2016-04-18 16:37:19 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7056: Connection reset
+2016-04-18 16:37:19 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7056
