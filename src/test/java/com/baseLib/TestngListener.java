@@ -20,7 +20,6 @@ public class TestngListener implements ITestListener
 	String path = System.setProperty("Log",date1);
 	public Logger logVariable=Logger.getLogger(this.getClass());
 
-	
 	public void onFinish(ITestContext result) 
 	{
 		System.out.println("Testng end");

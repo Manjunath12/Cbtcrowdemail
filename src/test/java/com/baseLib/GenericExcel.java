@@ -1,10 +1,8 @@
 package com.baseLib;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Cell;
@@ -16,7 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class GenericExcel 
 {
-	public static String filepath = "C:\\Manjunath_Rajeev\\Project_WorkSpace\\CbtCrowdEmail\\TestData\\InputData.xlsx";
+	public static String filepath = BaseTestPage.sDirPath+"\\ExcelFile\\InputData.xlsx";
 	public static String sheetName = "Sheet1";
 	
 	public void writeResultToExcel(String result,String testCaseName,String exception) throws EncryptedDocumentException, InvalidFormatException, IOException

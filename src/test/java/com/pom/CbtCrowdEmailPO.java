@@ -4,6 +4,7 @@ import java.util.List;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -63,7 +64,7 @@ public class CbtCrowdEmailPO
 		return eleSelChkBx;
 	}
 	
-	@FindBy(xpath="(//span[@role='link'])[5]")
+	@FindBy(xpath="//span[contains(text(),'Select all')]")
 	private WebElement eleAllMailDelLnk;
 	public WebElement getEleAllMailDelLnk()
 	{
@@ -112,7 +113,7 @@ public class CbtCrowdEmailPO
 		return eleSelTrashChkBx;
 	}
 	
-	@FindBy(xpath="(//span[@role='link'])[1]")
+	@FindBy(xpath="//span[contains(text(),'Select')]")
 	private WebElement eleTrashDelAllMailLnk;
 	public WebElement getTrashDelAllMailLnk()
 	{
@@ -126,14 +127,14 @@ public class CbtCrowdEmailPO
 		return eleDelTrashBtn;
 	}
 	
-	@FindBy(xpath="//span[@class='gb_1a gbii']")
+	@FindBy(xpath="//span[@class='gb_2a gbii']")
 	private WebElement eleAcctIcn;
 	public WebElement getEleAcctIcn()
 	{
 		return eleAcctIcn;
 	}
 	
-	@FindBy(xpath="//a[text()='My Account']")
+	@FindBy(xpath="//a[contains(text(),'My')]")
 	private WebElement eleMyAcctBtn;
 	public WebElement getEleMyAcctBtn()
 	{
@@ -245,6 +246,92 @@ public class CbtCrowdEmailPO
 		return elechngePwdTxt;
 	}
 	
+	@FindBy(xpath="(//span[text()='Gmail'])[2]")
+	private WebElement eleGmailIcn;
+	public WebElement getEleGmailIcn()
+	{
+		return eleGmailIcn;
+	}
+	
+	@FindBy(xpath="(//div[text()='Contacts'])")
+	private WebElement eleGmailContactLnk;
+	public WebElement getEleGmailContactLnk()
+	{
+		return eleGmailContactLnk;
+	}
+	
+	@FindBy(xpath="//span[@class='Wr4Vqf']")
+	private WebElement eleContactPopupNxtIcn;
+	public WebElement getEleContactPopupNxtIcn()
+	{
+		return eleContactPopupNxtIcn;
+	}
+	
+	@FindBy(xpath="//div[@class='EbKDJd']")
+	private WebElement eleCntctPopupClseIcn;
+	public WebElement getEleCntctPopupClseIcn()
+	{
+		return eleCntctPopupClseIcn;
+	}
+	
+	@FindBy(xpath="(//div[@class='YkP4A'])")
+	private WebElement eleContctsMailChkBx;
+	public WebElement getEleContctsMailChkBx()
+	{
+		return eleContctsMailChkBx;
+	}
+	
+	@FindBy(xpath="//div[@class='JkN31b']")
+	private WebElement eleSelContctsMailIcn;
+	public WebElement getSelContctsMailIcn()
+	{
+		return eleSelContctsMailIcn;
+	}
+	
+	@FindBy(xpath="//div[@aria-label='Select all']")
+	private WebElement eleSelAllCntctMailLnk;
+	public WebElement getSelAllCntctMailLnk()
+	{
+		return eleSelAllCntctMailLnk;
+	}
+	
+	@FindBy(xpath="//div[@class='HEryGf']")
+	private WebElement eleDelCntctMailIcn;
+	public WebElement getEleDelCntctMailIcn()
+	{
+		return eleDelCntctMailIcn;
+	}
+	
+	@FindBy(xpath="(//div[@aria-label='Delete'])")
+	private WebElement eleDelAllCntctMailLnk;
+	public WebElement getEleDelAllCntctMailLnk()
+	{
+		return eleDelAllCntctMailLnk;
+	}
+	
+	@FindBy(xpath="//a[text()='Manage passwords']")
+	private WebElement eleMangeSavedPwdLnk;
+	public WebElement getEleMangeSavedPwdLnk()
+	{
+		return eleMangeSavedPwdLnk;
+	}
+	
+	@FindBy(xpath="//div[@aria-label='Remove password']")
+	private List<WebElement> eleRmveSavedPwdLnk;
+	public List<WebElement> getEleRmveSavedPwdLnk()
+	{
+		return eleRmveSavedPwdLnk;
+	}
+	
+	@FindBy(xpath="//div[@class='De Hb Me Ct eba']")
+	private WebElement eleNoSavedPwdAppTxt;
+	public WebElement getEleNoSavedPwdAppTxt()
+	{
+		return eleNoSavedPwdAppTxt;
+	}
+	
+	
+	/*Description:Below method is to 'Login in to the cbtCrowd Gmail account'*/
 	public void userLogin(String username, String password) throws InterruptedException
 	{
 		getEleEmailTxtFld().sendKeys(username);
@@ -254,48 +341,45 @@ public class CbtCrowdEmailPO
 		Thread.sleep(3000);
 	}
 	
+	
+	/*Description:Below method is to 'Delete all the mails of cbtCrowd Gmail account'*/
 	public void deleteAllMails() throws InterruptedException
 	{
+		try
+		{
 		getEleMoreIcn().click();
 		getEleAllMailsLnk().click();
 		getEleSelChkBx().click();
-		try
-		{
+		
 			if(getEleAllMailDelLnk().isDisplayed())
 			{
 				getEleAllMailDelLnk().click();
 				getEleDeletBtn().click();
 				getEleAllMailDelOkBtn().click();
 				getEleAllMailDelOkBtn().click();
+				Thread.sleep(5000);
+				getEleSearchTxtBx().sendKeys("in:trash" + Keys.ENTER);
+				getEleSelTrashChkBx().click();
+				getTrashDelAllMailLnk().click();
+				getEleDelTrashBtn().click();
+				getEleAllMailDelOkBtn().click();
+				Thread.sleep(3000);
 			}
 		}
 		catch(Exception e)
 		{
 			getEleDeletBtn().click();
 			getEleAllMailDelOkBtn().click();
+			Thread.sleep(5000);
+			getEleSearchTxtBx().sendKeys("in:trash" + Keys.ENTER);
+			getEleSelTrashChkBx().click();
+			getEleDelTrashBtn().click();
+			Thread.sleep(3000);
 		}
-		Thread.sleep(5000);
-		getEleSearchTxtBx().sendKeys("in:trash" + Keys.ENTER);
-		getEleSelTrashChkBx().click();
-		
-//		try
-//		{
-//			if(getTrashDelAllMailLnk().isDisplayed())
-//			{
-//				getTrashDelAllMailLnk().click();
-//				getEleDelTrashBtn().click();
-//				getEleAllMailDelOkBtn().click();
-//			}
-//		}
-//		catch(Exception e)
-//		{
-//			getEleDelTrashBtn().click();
-//			getEleAllMailDelOkBtn().click();
-//		}
-//		
-		getEleDelTrashBtn().click();
 	}
 	
+	
+	/*Description:Below method is to 'Remove Connected Apps to cbtCrowd Gmail account'*/	
 	public void removeConnectedApps(WebDriver driver) throws InterruptedException
 	{
 		getEleAcctIcn().click();
@@ -342,10 +426,51 @@ public class CbtCrowdEmailPO
 				}
 		    	}
 		    }	
-		    }
+		  }
 		}
-	}	
+	}
 	
+	
+	/*Description:Below method is to 'Remove Saved Password Apps to cbtCrowd Gmail account'*/
+	public void removeSavedPwdApps(WebDriver driver,String passWord) throws InterruptedException
+	{
+		driver.navigate().back();
+		getEleMangeSavedPwdLnk().click();
+		getElePwdTxtFld().sendKeys(passWord);
+		
+		try
+	    {
+	    	if(getEleNoSavedPwdAppTxt().isDisplayed())
+	    	{
+	    		String message = getEleNoSavedPwdAppTxt().getText();
+	    		System.out.println(message);
+	    	}
+	    }
+	    catch(Exception e)
+	    {	
+	    	Loop1:for(int i = 0; i<=getEleRmveSavedPwdLnk().size();)
+	    	{
+	    		getEleRmveSavedPwdLnk().get(i).click();
+	    		Thread.sleep(5000);
+	    	try
+	    	{
+	    		if(getEleNoSavedPwdAppTxt().isDisplayed())
+	    		{
+	    		    String message = getEleNoSavedPwdAppTxt().getText();
+	    		    System.out.println(message);
+	    		    break;
+	    		}
+	    	}
+	    	catch (Exception e2) 
+	    	{
+	    		continue Loop1;
+			}
+	    	}
+	    }	
+	  }
+		
+	
+	/*Description: Below method is to 'Change Password of cbtCrowd Gmail account'*/	
 	public void changePassword(WebDriver driver,String passWord,String newPassword,String confrmPwd) throws InterruptedException
 	{
 		getEleAcctIcn().click();
@@ -376,7 +501,10 @@ public class CbtCrowdEmailPO
 	    	else
 	    	{
 	    		System.out.println("Password Was not Successfully changed??");
-	    	}		
+	    	}
+	    	Thread.sleep(3000);
+	    	getEleAcctIcn().click();
+	    	getEleSignOutLnk().click();
 	   }	
 }
 

@@ -1,9 +1,160 @@
-2016-04-14 18:04:44 INFO  TestngListener:44 - Failed testcase:  testCbtLogin141
-2016-04-14 18:05:02 INFO  TestngListener:44 - Failed testcase:  testCbtLogin142
-2016-04-14 18:05:22 INFO  TestngListener:44 - Failed testcase:  testCbtLogin143
-2016-04-14 18:05:43 INFO  TestngListener:44 - Failed testcase:  testCbtLogin144
-2016-04-14 18:06:01 INFO  TestngListener:44 - Failed testcase:  testCbtLogin145
-2016-04-14 18:06:08 ERROR FOUserAgent:101 - Image not available. URI: file:/. Reason: org.apache.xmlgraphics.image.loader.ImageException: The file format is not supported. No ImagePreloader found for file:/ (No context info available)
+2016-04-25 10:45:32 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 10:46:08 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 10:46:44 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 10:47:37 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 10:48:14 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 10:49:09 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 10:49:44 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 11:03:20 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:03:56 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:04:32 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:05:14 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:05:50 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:06:29 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:07:05 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:19:05 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:19:41 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:20:17 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:22:20 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:22:57 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:24:24 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:25:00 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:25:37 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:26:12 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:26:49 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:27:39 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:28:29 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:29:24 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:30:15 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:31:07 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:31:43 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:33:30 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:34:06 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:35:39 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:36:29 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:37:05 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:37:42 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:38:18 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:38:53 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:40:40 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:41:01 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:41:36 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:42:12 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:42:48 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:43:23 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:43:59 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:44:35 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:45:10 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:45:48 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:46:39 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:47:16 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:47:52 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:48:29 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:49:04 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:49:39 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:50:15 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:50:50 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:51:25 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:52:03 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:52:38 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:53:13 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:53:49 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:54:25 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:55:01 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 11:55:36 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:33:22 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:33:59 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:34:35 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:38:06 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:39:03 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:39:40 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:40:33 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:41:34 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:42:09 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:42:46 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:44:31 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:45:09 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:45:57 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 14:47:46 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:48:26 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:49:12 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:49:54 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:51:31 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:53:02 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:53:38 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:54:14 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:55:04 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:56:51 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:57:27 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 14:58:12 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:00:17 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:00:53 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:01:28 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:02:03 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:02:49 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:03:24 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:04:00 INFO  TestngListener:44 - Failed testcase:  cbtCrowdEmail
+2016-04-25 15:04:57 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:06:45 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:08:50 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:10:36 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:12:30 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:13:07 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:13:59 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 15:14:50 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:29:58 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:30:40 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:31:28 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:32:05 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:32:42 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:33:36 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:35:04 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:36:33 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:37:10 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:38:02 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:38:39 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:40:10 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:40:45 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:42:32 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:43:09 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:43:47 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:44:23 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:45:52 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:47:36 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:49:23 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:50:11 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:50:47 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:51:22 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:51:58 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:52:34 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:53:10 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:53:46 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:54:22 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:54:58 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:55:36 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:57:03 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:57:40 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:58:15 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:58:50 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 16:59:26 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:01:13 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:02:04 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:02:55 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:03:31 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:04:07 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:04:58 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:06:45 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:07:21 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:07:57 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:09:44 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:10:21 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:11:50 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:13:35 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:14:11 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:14:46 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-25 17:15:22 WARN  TestngListener:64 - Success testcase:  cbtCrowdEmail
+2016-04-29 14:38:07 WARN  TestngListener:53 - Skipped testcase:  cbtCrowdEmail
+2016-04-29 14:38:12 ERROR FOUserAgent:101 - Image not available. URI: file:/. Reason: org.apache.xmlgraphics.image.loader.ImageException: The file format is not supported. No ImagePreloader found for file:/ (No context info available)
 org.apache.xmlgraphics.image.loader.ImageException: The file format is not supported. No ImagePreloader found for file:/
 	at org.apache.xmlgraphics.image.loader.ImageManager.preloadImage(ImageManager.java:181)
 	at org.apache.xmlgraphics.image.loader.cache.ImageCache.needImageInfo(ImageCache.java:128)
@@ -44,112 +195,6 @@ org.apache.xmlgraphics.image.loader.ImageException: The file format is not suppo
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-2016-04-14 18:06:08 INFO  FOUserAgent:83 - Rendered page #1.
-2016-04-14 18:06:08 INFO  FOUserAgent:83 - Rendered page #2.
-2016-04-14 18:06:08 INFO  FOUserAgent:83 - Rendered page #3.
-2016-04-14 18:06:08 INFO  FOUserAgent:83 - Rendered page #4.
-2016-04-14 18:06:08 INFO  FOUserAgent:83 - Rendered page #5.
-2016-04-14 18:06:08 INFO  FOUserAgent:83 - Rendered page #6.
-2016-04-15 12:09:11 WARN  TestngListener:64 - Success testcase:  testCbtLogin141
-2016-04-15 12:09:21 WARN  TestngListener:54 - Skipped testcase:  testCbtLogin142
-2016-04-15 12:09:21 WARN  TestngListener:54 - Skipped testcase:  testCbtLogin143
-2016-04-15 12:09:21 WARN  TestngListener:54 - Skipped testcase:  testCbtLogin144
-2016-04-15 12:09:21 WARN  TestngListener:54 - Skipped testcase:  testCbtLogin145
-2016-04-15 12:09:25 ERROR FOUserAgent:101 - Image not available. URI: file:/. Reason: org.apache.xmlgraphics.image.loader.ImageException: The file format is not supported. No ImagePreloader found for file:/ (No context info available)
-org.apache.xmlgraphics.image.loader.ImageException: The file format is not supported. No ImagePreloader found for file:/
-	at org.apache.xmlgraphics.image.loader.ImageManager.preloadImage(ImageManager.java:181)
-	at org.apache.xmlgraphics.image.loader.cache.ImageCache.needImageInfo(ImageCache.java:128)
-	at org.apache.xmlgraphics.image.loader.ImageManager.getImageInfo(ImageManager.java:123)
-	at org.apache.fop.fo.flow.ExternalGraphic.bind(ExternalGraphic.java:81)
-	at org.apache.fop.fo.FObj.processNode(FObj.java:129)
-	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.startElement(FOTreeBuilder.java:291)
-	at org.apache.fop.fo.FOTreeBuilder.startElement(FOTreeBuilder.java:179)
-	at org.apache.xml.serializer.ToXMLSAXHandler.closeStartTag(ToXMLSAXHandler.java:204)
-	at org.apache.xml.serializer.ToSAXHandler.flushPending(ToSAXHandler.java:277)
-	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:243)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemChoose.execute(ElemChoose.java:126)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemIf.execute(ElemIf.java:160)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
-	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
-	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
-	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
-	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
-	at com.uttesh.pdfngreport.handler.PdfReportHandler.generatePdfReport(PdfReportHandler.java:154)
-	at com.uttesh.pdfngreport.PDFGenerator.generateReport(PDFGenerator.java:84)
-	at com.uttesh.pdfngreport.PDFReportListener.generateReport(PDFReportListener.java:86)
-	at org.testng.TestNG.generateReports(TestNG.java:1090)
-	at org.testng.TestNG.run(TestNG.java:1049)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-2016-04-15 12:09:25 INFO  FOUserAgent:83 - Rendered page #1.
-2016-04-15 12:09:25 INFO  FOUserAgent:83 - Rendered page #2.
-2016-04-15 12:09:25 INFO  FOUserAgent:83 - Rendered page #3.
-2016-04-15 12:09:25 INFO  FOUserAgent:83 - Rendered page #4.
-2016-04-15 12:13:58 WARN  TestngListener:64 - Success testcase:  testCbtLogin141
-2016-04-15 12:14:24 INFO  TestngListener:44 - Failed testcase:  testCbtLogin142
-2016-04-15 12:14:35 WARN  TestngListener:54 - Skipped testcase:  testCbtLogin143
-2016-04-15 12:14:35 WARN  TestngListener:54 - Skipped testcase:  testCbtLogin144
-2016-04-15 12:14:35 WARN  TestngListener:54 - Skipped testcase:  testCbtLogin145
-2016-04-15 12:14:36 ERROR FOUserAgent:101 - Image not available. URI: file:/. Reason: org.apache.xmlgraphics.image.loader.ImageException: The file format is not supported. No ImagePreloader found for file:/ (No context info available)
-org.apache.xmlgraphics.image.loader.ImageException: The file format is not supported. No ImagePreloader found for file:/
-	at org.apache.xmlgraphics.image.loader.ImageManager.preloadImage(ImageManager.java:181)
-	at org.apache.xmlgraphics.image.loader.cache.ImageCache.needImageInfo(ImageCache.java:128)
-	at org.apache.xmlgraphics.image.loader.ImageManager.getImageInfo(ImageManager.java:123)
-	at org.apache.fop.fo.flow.ExternalGraphic.bind(ExternalGraphic.java:81)
-	at org.apache.fop.fo.FObj.processNode(FObj.java:129)
-	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.startElement(FOTreeBuilder.java:291)
-	at org.apache.fop.fo.FOTreeBuilder.startElement(FOTreeBuilder.java:179)
-	at org.apache.xml.serializer.ToXMLSAXHandler.closeStartTag(ToXMLSAXHandler.java:204)
-	at org.apache.xml.serializer.ToSAXHandler.flushPending(ToSAXHandler.java:277)
-	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:243)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemChoose.execute(ElemChoose.java:126)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemIf.execute(ElemIf.java:160)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
-	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
-	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
-	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
-	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
-	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
-	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
-	at com.uttesh.pdfngreport.handler.PdfReportHandler.generatePdfReport(PdfReportHandler.java:154)
-	at com.uttesh.pdfngreport.PDFGenerator.generateReport(PDFGenerator.java:84)
-	at com.uttesh.pdfngreport.PDFReportListener.generateReport(PDFReportListener.java:86)
-	at org.testng.TestNG.generateReports(TestNG.java:1090)
-	at org.testng.TestNG.run(TestNG.java:1049)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #1.
-2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #2.
-2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #3.
-2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #4.
-2016-04-15 12:14:36 INFO  FOUserAgent:83 - Rendered page #5.
-2016-04-18 16:37:19 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7056: Connection reset
-2016-04-18 16:37:19 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7056
+2016-04-29 14:38:12 INFO  FOUserAgent:83 - Rendered page #1.
+2016-04-29 14:38:12 INFO  FOUserAgent:83 - Rendered page #2.
+2016-04-29 14:38:12 INFO  FOUserAgent:83 - Rendered page #3.

@@ -5,9 +5,7 @@
     <classes>
       <class name="com.script.CbtCrowdEmailTest">
         <methods>
-          <include name="loginToWord" invocation-numbers="0"/>
-          <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="cbtCrowdEmail"/>
         </methods>
       </class> <!-- com.script.CbtCrowdEmailTest -->
     </classes>
